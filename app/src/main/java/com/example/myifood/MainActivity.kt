@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-
+//testes
 
 class TabViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
