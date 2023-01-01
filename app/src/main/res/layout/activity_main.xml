@@ -13,7 +13,8 @@
 
        <Button
            android:layout_width="wrap_content"
-           android:text="Test teste"
+           style="@style/MyFoodButtonStyle"
+           android:text="Rua Dr Erval dos Santos, 345"
            android:textSize="13sp"
            android:drawableEnd="@drawable/ic_baseline_keyboard_arrow_down_24"
            android:layout_height="wrap_content" />
@@ -28,14 +29,18 @@
 
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/add_tab"
+        app:tabTextAppearance="@style/MyFoodTabLayoutTextAppearance"
         app:tabMode="auto"
         app:tabIndicatorFullWidth="false"
         app:tabIndicatorHeight="1dp"
-        app:tabIndicatorColor="@color/gray"
+        app:tabIndicatorColor="@color/red"
+        app:tabSelectedTextColor="@color/red"
+        app:tabTextColor="@color/gray"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/add.viewpager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

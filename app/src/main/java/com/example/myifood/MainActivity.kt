@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun setupViews() {
         val tabLayout = binding.addTab
-        val viewPager = binding.addViewPager
+        val viewPager = binding.addViewpager
         val adapter = TabViewPagerAdapter(this)
         viewPager.adapter = adapter
         viewPager.isUserInputEnabled = false
@@ -35,7 +35,7 @@ class MainActivity : AppCompatActivity() {
     }
 
 }
-//testes
+
 
 class TabViewPagerAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
