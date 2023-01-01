@@ -1,5 +1,5 @@
 package com.example.myifood
 
-class CategoryView {
+class CategoryView: AtViewHolder{
 
 }
