@@ -1,4 +1,4 @@
-# Clone IFood
+# Clone do IFood
 Consiste em um app de gerenciamento de restaurantes com foco inteiramente didático, utilizado como projeto pessoal para aprendizado.
 
 ## Ferramentas
